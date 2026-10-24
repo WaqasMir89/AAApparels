@@ -2,6 +2,7 @@ node_modules/
 dist/
 source-audit/
 source-audit-http/
+source-audit-run/
 output/
 .playwright-cli/
 .cache/

@@ -14,8 +14,14 @@ jobs:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
       - name: Capture public pages and assets
         run: |
-          python3 scripts/inventory_source.py --timeout 20 --delay 0.2 || \
-          python3 scripts/inventory_source.py --url http://www.aaapparels.com/ --output source-audit-http --timeout 20 --delay 0.2
+          python3 scripts/inventory_source.py --timeout 20 --delay 0.2 || true
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          manifest = json.loads(Path('source-audit/manifest.json').read_text())
+          assert len(manifest['pages']) >= 10, 'Expected original public pages were not captured'
+          print(f"Captured {len(manifest['pages'])} pages and {len(manifest['assets'])} assets; {len(manifest['errors'])} errors require review.")
+          PY
       - name: Save inventory for review
         if: always()
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4

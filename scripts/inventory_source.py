@@ -12,12 +12,13 @@ import hashlib
 from collections import deque
 from datetime import datetime, timezone
 from html.parser import HTMLParser
+from http.client import HTTPException
 import json
 from pathlib import Path
 import sys
 import time
 from urllib.error import HTTPError, URLError
-from urllib.parse import urldefrag, urljoin, urlsplit, urlunsplit
+from urllib.parse import quote, urldefrag, urljoin, urlsplit, urlunsplit
 from urllib.request import HTTPRedirectHandler, Request, build_opener
 
 
@@ -36,7 +37,9 @@ def normalized_url(raw: str, base: str) -> str | None:
         return None
     if parts.username or parts.password:
         return None
-    return urlunsplit((parts.scheme, parts.netloc.lower(), parts.path or "/", parts.query, ""))
+    path = quote(parts.path or "/", safe="/%:@!$&'()*+,;=-._~")
+    query = quote(parts.query, safe="%=&?/:@!$'()*+,;~-._")
+    return urlunsplit((parts.scheme, parts.netloc.lower(), path, query, ""))
 
 
 class PageLinks(HTMLParser):
@@ -200,9 +203,11 @@ def main():
             else:
                 manifest["assets"].append(record)
             print(f"Saved {content_type}: {url}", flush=True)
-        except (HTTPError, URLError, TimeoutError, OSError, ValueError, LookupError) as exc:
+        except (HTTPError, URLError, HTTPException, TimeoutError, OSError, ValueError, LookupError) as exc:
             manifest["errors"].append({"url": url, "error": str(exc)})
             print(f"Failed: {url}: {exc}", file=sys.stderr, flush=True)
+        (args.output / "manifest.json").write_text(
+            json.dumps(manifest, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
         if queue:
             time.sleep(args.delay)
 
