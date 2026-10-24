@@ -22,6 +22,21 @@ jobs:
           assert len(manifest['pages']) >= 10, 'Expected original public pages were not captured'
           print(f"Captured {len(manifest['pages'])} pages and {len(manifest['assets'])} assets; {len(manifest['errors'])} errors require review.")
           PY
+      - name: Capture licensed presentation fonts
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          from urllib.request import urlretrieve
+          folder = Path('source-audit/fonts')
+          folder.mkdir(exist_ok=True)
+          for source, target in {
+            'manrope/Manrope%5Bwght%5D.ttf': 'manrope.ttf',
+            'manrope/OFL.txt': 'manrope-LICENSE.txt',
+            'dmserifdisplay/DMSerifDisplay-Regular.ttf': 'dm-serif-display.ttf',
+            'dmserifdisplay/OFL.txt': 'dm-serif-display-LICENSE.txt',
+          }.items():
+            urlretrieve('https://raw.githubusercontent.com/google/fonts/main/ofl/' + source, folder / target)
+          PY
       - name: Save inventory for review
         if: always()
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
