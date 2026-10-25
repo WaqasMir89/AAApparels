@@ -1,0 +1,20 @@
+{
+  "name": "aaapparels-presentation",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static presentation website for AA Apparels",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/check.mjs",
+    "test": "node scripts/browser-check.mjs",
+    "start": "node scripts/serve.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.14.0",
+    "playwright": "^1.64.1"
+  }
+}

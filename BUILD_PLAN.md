@@ -14,19 +14,17 @@ Implementation is authorized. No additional design approval is required.
 
 ## Evidence and current status
 
-- The project directory initially contains no application source or assets.
-- The existing website is PHP-based according to the brief; its source has not
-  been supplied.
-- Attempts to retrieve the homepage, HTTP/HTTPS and www/non-www variants, and
-  common discovery endpoints through the available web tools failed.
-- Terminal access cannot resolve the original domain in the restricted environment.
+- The project directory initially contained no application source or assets.
+- The original site is PHP-based; this presentation uses generated static HTML.
+- Initial browsing attempts failed. A GitHub Actions inventory subsequently
+  captured 23 HTML URLs representing 11 distinct pages, and 53 linked assets.
 - GitHub access is verified through the CLI as `WaqasMir89`. The public repository
   https://github.com/WaqasMir89/AAApparels has been created on branch `main`.
-- A manual GitHub Actions source-capture workflow provides another retrieval
-  environment. The captured content must still be inspected before implementation.
-- The exact page count, page names, product categories, catalogue files, original
-  logo, and image inventory remain unverified. Do not invent these or mark page
-  parity complete from a guessed menu.
+- The page and asset inventory has been reviewed. `docs/PAGE_MAP.md` records all
+  original pages, duplicate routes, broken source links and content corrections.
+- All 40 raster source images have local assets. The original logo is unchanged.
+  No PDF catalogue was linked from the source; a printable presentation catalogue
+  has been assembled from the original product range.
 
 ## Requirements and acceptance
 
@@ -79,7 +77,8 @@ content/                 reviewed page and product data
 src/templates/           shared layout and page templates
 src/styles/              design tokens and responsive styles
 src/scripts/             accessible navigation and optional filters
-public/assets/original/  approved original marks, images, documents
+public/assets/images/    original logo and optimized original photographs
+public/assets/fonts/     self-hosted fonts and licenses
 scripts/                 source inventory, build, checks
 docs/                    page map, provenance, verification, handoff
 dist/                    generated static presentation, ignored in Git
@@ -169,11 +168,16 @@ Specify real enquiries/CRM delivery, catalogue management, content administratio
 authentication, analytics/consent, search, quote requests, multilingual content,
 or integrations from agreed requirements. These are not implied by a static demo.
 
-## Open gates
+## Delivery state
 
-1. Original website or a local export must become readable.
-2. Original logos, catalogue files, and product photographs must be captured.
-3. Browser execution must be available for visual verification.
-4. The final website commit and public repository state must be verified after delivery.
+The static presentation is implemented as 15 pages. Source collection, original
+page equivalents, shared layouts, three catalogues, five service pages,
+responsive navigation, image enlargement, filtering, email draft preparation and
+print layout are complete. The public repository is created and GitHub Pages is
+configured to publish static output through GitHub Actions.
 
-The redesign itself is not yet implemented or ready for client presentation.
+`docs/VERIFICATION.md` records performed verification and its limits; the
+publishing workflow retains per-commit CI and deployment results.
+
+Production-domain replacement, backend features, physical-device review, and
+confirmation of business claims remain outside this presentation milestone.

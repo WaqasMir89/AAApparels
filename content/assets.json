@@ -1,0 +1,358 @@
+{
+  "icon/favicon.png": {
+    "path": "assets/images/favicon.png",
+    "width": 64,
+    "height": 64,
+    "source": "https://www.aaapparels.com/assets/img/icon/favicon.png",
+    "originalSha256": "1669e4075fa9b379a0ea3036bfddd490c64f52f6627020f3486ba71b178ee8c7",
+    "sha256": "3a40175a2cf1f0a0d2df2e52bd1b5b69e1d7e76ecca85ca6aa020ae6d293082a"
+  },
+  "logo/logo.png": {
+    "path": "assets/images/logo.png",
+    "width": 600,
+    "height": 200,
+    "source": "https://www.aaapparels.com/assets/img/logo/logo.png",
+    "originalSha256": "d3686effd6d26f9d6d339a7edfca23a1caa98723624cad4c38270b14b60701fb",
+    "sha256": "d3686effd6d26f9d6d339a7edfca23a1caa98723624cad4c38270b14b60701fb"
+  },
+  "shape/banner1.jpg": {
+    "path": "assets/images/71e164d363005c.webp",
+    "width": 1800,
+    "height": 1028,
+    "source": "https://www.aaapparels.com/assets/img/shape/banner1.jpg",
+    "originalSha256": "933de0e4f20c578b16f8c25d5caecad7627c768ab6555d67a643fe969b623dae",
+    "sha256": "4a6fa12a2075fbadaf3fc59f3ffe0b6cc89708cf94e693fa067c06a575bb790c"
+  },
+  "shape/banner2.jpg": {
+    "path": "assets/images/57c1e4e79e86c7.webp",
+    "width": 1800,
+    "height": 1029,
+    "source": "https://www.aaapparels.com/assets/img/shape/banner2.jpg",
+    "originalSha256": "de3186187e1da26f518e66cad0eb9cbbc967aa484ecac2bf67b2b59e4a2b16ca",
+    "sha256": "b57927d424981ecdbc8399bde85908a72c24f7bbc82b892722e53c0a56fd1d52"
+  },
+  "about/about1.jpeg": {
+    "path": "assets/images/ec7c194dffebd6.webp",
+    "width": 896,
+    "height": 1152,
+    "source": "https://www.aaapparels.com/assets/img/about/about1.jpeg",
+    "originalSha256": "a4f19b06daa6faaba1e259b9bbfe202fdf733a25c782f69dabf32ced9e7080c4",
+    "sha256": "1fbff4febc4d243c74c4a70ee1706be002a5212030217c79881ca38c23d39acb"
+  },
+  "about/about2.jpeg": {
+    "path": "assets/images/f02498fd8bc479.webp",
+    "width": 1024,
+    "height": 1024,
+    "source": "https://www.aaapparels.com/assets/img/about/about2.jpeg",
+    "originalSha256": "e71e9ccbf366b60dc7e9130556092dacf765af6740f65186641031e09244b264",
+    "sha256": "537fb6856e0d59b733ab9b003fd971cc6387314180a8e371cbf32396d4b73c2a"
+  },
+  "service/Banner 5.jpg": {
+    "path": "assets/images/5c029b61630aae.webp",
+    "width": 1800,
+    "height": 1029,
+    "source": "https://www.aaapparels.com/assets/img/service/Banner%205.jpg",
+    "originalSha256": "2449d40a1c5f7b558b8996a6b86951e3051e783675329a2d953e2d389e7729b3",
+    "sha256": "19e7e04dfa94436208f564e796d8ca15ef2e5741a540bdd573356b7f266891db"
+  },
+  "icon/1.jpg.webp": {
+    "path": "assets/images/fa692bd1fee71b.webp",
+    "width": 400,
+    "height": 264,
+    "source": "https://www.aaapparels.com/assets/img/icon/1.jpg.webp",
+    "originalSha256": "3ab2b2dfd8264d0dd44841facd5b6e9b9d83a38bd4a245e9fe87eb6bfccb99cc",
+    "sha256": "96fc5e82cac0748ea42b4a7c617c7ec6387857dd90ae96953a12d915b4654597"
+  },
+  "icon/fabrication.png": {
+    "path": "assets/images/deeddfb46703e0.webp",
+    "width": 1408,
+    "height": 704,
+    "source": "https://www.aaapparels.com/assets/img/icon/fabrication.png",
+    "originalSha256": "8c82525d69c21633e2e485ec4f91aba38ce21fce1c6ad6515fec234e2f5485fd",
+    "sha256": "8490043620afa1aeb922378700f112b38187e7a68a22c21749832f0affd7bfd7"
+  },
+  "icon/Production and dispatch.jpeg": {
+    "path": "assets/images/567972d7ee46bb.webp",
+    "width": 1344,
+    "height": 768,
+    "source": "https://www.aaapparels.com/assets/img/icon/Production%20and%20dispatch.jpeg",
+    "originalSha256": "25835ddee1188c702f185b14f1e66af4c9c5abe8a7759e1ba887151311672645",
+    "sha256": "57a3242f0fbb9ebf02b074ca045e9cb03a1b66b0705a94f0b4058fbe016fdd56"
+  },
+  "icon/printing and emb2.jpeg": {
+    "path": "assets/images/0402fb1cfbc8df.webp",
+    "width": 1152,
+    "height": 864,
+    "source": "https://www.aaapparels.com/assets/img/icon/printing%20and%20emb2.jpeg",
+    "originalSha256": "00599377ce56e48e173ad5d73e08d0c3135576f446dda207f83b61faccb0da1f",
+    "sha256": "6ec812b407984c255758836e1009b0d51c952eb2bc423791b4616da0a6bb88ba"
+  },
+  "icon/Research and development.jpeg": {
+    "path": "assets/images/d911f08206d7f5.webp",
+    "width": 1344,
+    "height": 768,
+    "source": "https://www.aaapparels.com/assets/img/icon/Research%20and%20development.jpeg",
+    "originalSha256": "141754ffe4da2a4d8675ad13c39d517321eeb7e1994de5d5b0bf4bc1ef500832",
+    "sha256": "b242594c1a32bcd3cdce94771fa89358a3f42aa52c7531e66566bb2f166e4ef8"
+  },
+  "icon/1.jpeg": {
+    "path": "assets/images/b7b3332d6174ce.webp",
+    "width": 1216,
+    "height": 832,
+    "source": "https://www.aaapparels.com/assets/img/icon/1.jpeg",
+    "originalSha256": "b4acacd76627b8945e2fb51df915594cd47a28ced22ce28f6d7dde3465bdadca",
+    "sha256": "208e601accac4797219a142ba62126db1f1ca0e102a0cad52af1444726cf9e4f"
+  },
+  "icon/2.jpeg": {
+    "path": "assets/images/94bc3b3dad21d4.webp",
+    "width": 1216,
+    "height": 832,
+    "source": "https://www.aaapparels.com/assets/img/icon/2.jpeg",
+    "originalSha256": "72a3d6df3ac6d36b5d2f1cec184918a50c91d3f20cfae69445e71ccf51e1f759",
+    "sha256": "3719c101b388a837807bbae7a3f9e1a8cf9e88a25376cfec384049f514fd301c"
+  },
+  "icon/3.jpeg": {
+    "path": "assets/images/d2f40980467184.webp",
+    "width": 1216,
+    "height": 832,
+    "source": "https://www.aaapparels.com/assets/img/icon/3.jpeg",
+    "originalSha256": "5383df3bda071bf842609415ec4bdfc55f75963bdb1fe225aeb2f6d5ae4ec2ae",
+    "sha256": "9a278e44de82c92505bbad495c7463edf1fc0018639aa1002336387a33f0db13"
+  },
+  "about/HOME4.png": {
+    "path": "assets/images/2335d2cbc2dbee.webp",
+    "width": 1321,
+    "height": 768,
+    "source": "https://www.aaapparels.com/assets/img/about/HOME4.png",
+    "originalSha256": "f69e2bb9c80e556b152d6257020b1b34f38d8bce5da988f982023b159c01e531",
+    "sha256": "243de686c117c592cad7d7aac3bf943fe81b8f12ebeffa7f86b16f875b0418f8"
+  },
+  "faq/Faq's.png": {
+    "path": "assets/images/99f33a5e4f5ea3.webp",
+    "width": 1321,
+    "height": 766,
+    "source": "https://www.aaapparels.com/assets/img/faq/Faq's.png",
+    "originalSha256": "e2f96abab7be741dd50d144609202642bea423ca0c00f85ad6ff64fa6fb9d4a0",
+    "sha256": "6a24855e33be7bc347056cb4145e25c4fd6113006a5b9856f2455563a52dd4a1"
+  },
+  "shape/breadcrumn-shape.png": {
+    "path": "assets/images/2c94487aff06ae.webp",
+    "width": 1440,
+    "height": 388,
+    "source": "https://www.aaapparels.com/assets/img/shape/breadcrumn-shape.png",
+    "originalSha256": "78e8da856d959429dd25aa3caeda543df2706065d91bf5ee3089bff535dde9da",
+    "sha256": "940fd8270c63d005f4765c7bbcb33270e4b792b1aec459e2c0a83cfc95aba008"
+  },
+  "shape/about.jpg": {
+    "path": "assets/images/c6d5378647858e.webp",
+    "width": 1456,
+    "height": 400,
+    "source": "https://www.aaapparels.com/assets/img/shape/about.jpg",
+    "originalSha256": "d2710e7fd918a37a0a84950ae092bd57e28ec753d4bae2b7cd1798e53fa069dc",
+    "sha256": "29cd8e9a3760a877692b711c897ec13fa186d15e9cbae22b0888596a2526113b"
+  },
+  "about/Abouti.png": {
+    "path": "assets/images/4d3f8b8a134b86.webp",
+    "width": 768,
+    "height": 1266,
+    "source": "https://www.aaapparels.com/assets/img/about/Abouti.png",
+    "originalSha256": "1089320825608f1fbcd76488db4a6b7bdcec518d0710687f24e9115e74eaecd2",
+    "sha256": "57c4042c0379a714e1d8bbe61607784c3ea6c6c551345ac46c24e16149f980ba"
+  },
+  "about/Abouti2.png": {
+    "path": "assets/images/056355fcb8a6a5.webp",
+    "width": 768,
+    "height": 1310,
+    "source": "https://www.aaapparels.com/assets/img/about/Abouti2.png",
+    "originalSha256": "39d8230d329b28319961cb45498164d33258972069ccfe33fc8892da2f89da9b",
+    "sha256": "62a2e0701ccd8f8aeffc43b7d7e326c6199e8ef5efc9bbce51c8e5729178f43d"
+  },
+  "about/Abouti3.png": {
+    "path": "assets/images/bf65a727090745.webp",
+    "width": 1326,
+    "height": 768,
+    "source": "https://www.aaapparels.com/assets/img/about/Abouti3.png",
+    "originalSha256": "db2cbc8114a890f941e7a4b6ef152efe531072d2fd82b7e4df7d6fe3bb1e0270",
+    "sha256": "a4d2fc6a6c4bb490dba36797e9f13c11f4f69804bed7e936ee085673b5e3e587"
+  },
+  "shape/ca-line-shape.png": {
+    "path": "assets/images/13f0d564df3c56.webp",
+    "width": 198,
+    "height": 388,
+    "source": "https://www.aaapparels.com/assets/img/shape/ca-line-shape.png",
+    "originalSha256": "8c657c8b39ebf9ffea271c241a09b6761d85d4d80414238645ade41e644938bd",
+    "sha256": "6145e8ec2fe4799792c616f35fa160cbefecc3155e994c383f04f3ac08cf4887"
+  },
+  "service/dyeinglong.png": {
+    "path": "assets/images/a80aeb262d4147.webp",
+    "width": 1800,
+    "height": 1198,
+    "source": "https://www.aaapparels.com/assets/img/service/dyeinglong.png",
+    "originalSha256": "249fe349508cb862a11a77e96adf7fdead6a4543377972ccfa608d8c74421539",
+    "sha256": "01f31a1d8f22b44e22b5445aa462c1ec8b59d3176a2b4dd758d5e4b3ebfef846"
+  },
+  "service/fabrication2..png": {
+    "path": "assets/images/94fbaa4bc567d5.webp",
+    "width": 1800,
+    "height": 1196,
+    "source": "https://www.aaapparels.com/assets/img/service/fabrication2..png",
+    "originalSha256": "9b48b7067be986d1c1ddb7968e131e07ed625ca1e57c975fd2e2b720ab544069",
+    "sha256": "6c11e383dba82996e0cbbc8927ae8ca903dce681b43206cbf8ebe399eb1ca129"
+  },
+  "service/printing and emb2.jpeg": {
+    "path": "assets/images/cf2d23c4346567.webp",
+    "width": 1152,
+    "height": 864,
+    "source": "https://www.aaapparels.com/assets/img/service/printing%20and%20emb2.jpeg",
+    "originalSha256": "00599377ce56e48e173ad5d73e08d0c3135576f446dda207f83b61faccb0da1f",
+    "sha256": "6ec812b407984c255758836e1009b0d51c952eb2bc423791b4616da0a6bb88ba"
+  },
+  "service/researchanddevelopment.png": {
+    "path": "assets/images/269a1edf18e114.webp",
+    "width": 1800,
+    "height": 1196,
+    "source": "https://www.aaapparels.com/assets/img/service/researchanddevelopment.png",
+    "originalSha256": "edb4f3d60949c13df457d34263933fe8f37c1a7535c28db6c178a1caf0ceec84",
+    "sha256": "9c0e4df967d2da5b82baf2fdc8b0e8cd1e9cb3a9a144ca1966ee1e100526be80"
+  },
+  "service/production and dispatched.png": {
+    "path": "assets/images/0fae712c6c2e2d.webp",
+    "width": 1800,
+    "height": 1196,
+    "source": "https://www.aaapparels.com/assets/img/service/production%20and%20dispatched.png",
+    "originalSha256": "e2773adb8af18ede57281c023c438762fcbf4ea09fd6eae55c0fee0de562cde1",
+    "sha256": "2629c475c22303c9de1038fc5f78d9747795a54f031e7b592029123f6e544925"
+  },
+  "productcatalogue/SHIRT1.jpg": {
+    "path": "assets/images/2ed1cdc919f85b.webp",
+    "width": 1350,
+    "height": 1800,
+    "source": "https://www.aaapparels.com/assets/img/productcatalogue/SHIRT1.jpg",
+    "originalSha256": "28194e865e1b0aa887528de61a044529b3b50ae581406677c24eb6fe3801ae54",
+    "sha256": "09dbc05e51c7a95039ebcc51ec7097e8e2c3ea8b938070807f0d19e8a994e07a",
+    "printPath": "assets/images/2ed1cdc919f85b-print.jpg",
+    "printWidth": 900,
+    "printHeight": 1200
+  },
+  "productcatalogue/SHIRT2.jpg": {
+    "path": "assets/images/16c84553abaca1.webp",
+    "width": 1350,
+    "height": 1800,
+    "source": "https://www.aaapparels.com/assets/img/productcatalogue/SHIRT2.jpg",
+    "originalSha256": "2ec378e178b530e6bd593ce2c0221623db235255d3d48f88b73c889d5adfb082",
+    "sha256": "4018f997bc1ad15bc2e734ac7d6b8590613c4e25e15819026a8e13d812175001",
+    "printPath": "assets/images/16c84553abaca1-print.jpg",
+    "printWidth": 900,
+    "printHeight": 1200
+  },
+  "productcatalogue/SHIRT3.jpg": {
+    "path": "assets/images/516706354146ce.webp",
+    "width": 1350,
+    "height": 1800,
+    "source": "https://www.aaapparels.com/assets/img/productcatalogue/SHIRT3.jpg",
+    "originalSha256": "bbd2450fe773fff7ff588f3b8c5bc4fa516fa4f708413796a4115b733c1d60bc",
+    "sha256": "f3380228f760e185fddc5c83806db7fa9eddcd6c6565c9337f88c6a66bc79480",
+    "printPath": "assets/images/516706354146ce-print.jpg",
+    "printWidth": 900,
+    "printHeight": 1200
+  },
+  "productcatalogue/SHIRT4.jpg": {
+    "path": "assets/images/2cda2b31a64d39.webp",
+    "width": 1350,
+    "height": 1800,
+    "source": "https://www.aaapparels.com/assets/img/productcatalogue/SHIRT4.jpg",
+    "originalSha256": "4ab40643a68ac824ca35d72035d62cc1cd09a160ec662115349ce9bd7488247a",
+    "sha256": "3bd0fc2a1091c6bf82f01741a43065617b341c826361b02fa41233c42f056c0d",
+    "printPath": "assets/images/2cda2b31a64d39-print.jpg",
+    "printWidth": 900,
+    "printHeight": 1200
+  },
+  "productcatalogue/hoodie1.jpg": {
+    "path": "assets/images/23d243f7f716d9.webp",
+    "width": 1800,
+    "height": 1350,
+    "source": "https://www.aaapparels.com/assets/img/productcatalogue/hoodie1.jpg",
+    "originalSha256": "7b9266a5bacdf527ac6757f302a6aff26fa07055d4ac6bac8648a5b5421b13e1",
+    "sha256": "08509366b53ae973936afdbefc0bf2e121af3eb0419ba91e1cca9f3e340cc9be",
+    "printPath": "assets/images/23d243f7f716d9-print.jpg",
+    "printWidth": 1200,
+    "printHeight": 900
+  },
+  "productcatalogue/hoodie2.jpg": {
+    "path": "assets/images/327efc8df871cf.webp",
+    "width": 1800,
+    "height": 1350,
+    "source": "https://www.aaapparels.com/assets/img/productcatalogue/hoodie2.jpg",
+    "originalSha256": "fbfe950d3ec864ac3ee6399233cd93030d9cd4f7a70d0bba59c3d92127babbfe",
+    "sha256": "8ad997c0c8c2e6fb6ae427af13e0c30b747be0efcd519c87425a43ec70ae28dc",
+    "printPath": "assets/images/327efc8df871cf-print.jpg",
+    "printWidth": 1200,
+    "printHeight": 900
+  },
+  "productcatalogue/hoodie3.jpg": {
+    "path": "assets/images/b149d2ad86277c.webp",
+    "width": 1800,
+    "height": 1350,
+    "source": "https://www.aaapparels.com/assets/img/productcatalogue/hoodie3.jpg",
+    "originalSha256": "913d27cb512456b0ca97759c5561d18ceceee9c0c8f8672064e510bcbc604bb0",
+    "sha256": "f5312e20ce5030b647833dc410ca7fa181499d42ab289f0435ac0b2753b00801",
+    "printPath": "assets/images/b149d2ad86277c-print.jpg",
+    "printWidth": 1200,
+    "printHeight": 900
+  },
+  "productcatalogue/hoodie4.jpg": {
+    "path": "assets/images/5ca394d00009b0.webp",
+    "width": 1800,
+    "height": 1350,
+    "source": "https://www.aaapparels.com/assets/img/productcatalogue/hoodie4.jpg",
+    "originalSha256": "701f5cfc5b15a55f52d524992217ed1b0310f25ee6d3d7db8523f0edab114c11",
+    "sha256": "7386fdc672102cc7f729f898f75725e24d1c58f01d3006a3a51fad7be2682fd4",
+    "printPath": "assets/images/5ca394d00009b0-print.jpg",
+    "printWidth": 1200,
+    "printHeight": 900
+  },
+  "productcatalogue/swirt2 (1).jpg": {
+    "path": "assets/images/aed26710db050b.webp",
+    "width": 1800,
+    "height": 1350,
+    "source": "https://www.aaapparels.com/assets/img/productcatalogue/swirt2%20(1).jpg",
+    "originalSha256": "e297b61852dbe62f72ba38a78df0f5c0d7c3375367763588f043ad9148a54bd5",
+    "sha256": "fad0c5cc2b3c768b788060a25874c1a1e9db65a4b0daea4ffeccb6ef0ef28888",
+    "printPath": "assets/images/aed26710db050b-print.jpg",
+    "printWidth": 1200,
+    "printHeight": 900
+  },
+  "productcatalogue/swirt2 (2).jpg": {
+    "path": "assets/images/2bc644a0bc678b.webp",
+    "width": 1800,
+    "height": 1350,
+    "source": "https://www.aaapparels.com/assets/img/productcatalogue/swirt2%20(2).jpg",
+    "originalSha256": "8973b0b0c18801248d58247d251062d4465d54902c5c1180ac1ea3ec60bb3771",
+    "sha256": "6f0f078aae757492f88710fb81bb80f51bb1b81775d45efce7afb04b7c5efce6",
+    "printPath": "assets/images/2bc644a0bc678b-print.jpg",
+    "printWidth": 1200,
+    "printHeight": 900
+  },
+  "productcatalogue/swirt2 (3).jpg": {
+    "path": "assets/images/7fa73181dd78ec.webp",
+    "width": 1800,
+    "height": 1350,
+    "source": "https://www.aaapparels.com/assets/img/productcatalogue/swirt2%20(3).jpg",
+    "originalSha256": "dcef7f203ea92271e9107dca27df0fbda3f0b64812d2b29301b797e5f015f1c9",
+    "sha256": "bc60cd565ea7ef3361d29981c6077bb8307db83f4d0d95127e0c12cdbc2b3e40",
+    "printPath": "assets/images/7fa73181dd78ec-print.jpg",
+    "printWidth": 1200,
+    "printHeight": 900
+  },
+  "productcatalogue/swirt2 (4).jpg": {
+    "path": "assets/images/525ca808c869cf.webp",
+    "width": 1800,
+    "height": 1350,
+    "source": "https://www.aaapparels.com/assets/img/productcatalogue/swirt2%20(4).jpg",
+    "originalSha256": "9b066a5967ac3113cc8d2a298d28ec47ac4f5ac27f1152ca1d5f8be383f0f6b6",
+    "sha256": "09442dfc6f3ab14ab3a0e6746289d72233481dfc31ff301bdc0b6a457d470f3f",
+    "printPath": "assets/images/525ca808c869cf-print.jpg",
+    "printWidth": 1200,
+    "printHeight": 900
+  }
+}
